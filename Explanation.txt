@@ -1,0 +1,39 @@
+Varun is bored, so he explored something in his phone, where he is having the old dialpad
+phone, so when he looking that phone , he noticed that every number is associated with 
+three english alphabets, so he wanted to know, if he presses any numbers how many combinations 
+of the alphabets will occur, for better understanding,
+
+Phone dialpad:
+
+   1     2     3
+   -    abc   def
+  
+   4     5     6
+  ghi   jkl   mno
+  
+   7     8     9
+  pqr   stu   wxyz
+  
+   *     0     #
+   
+   where the dail keys (1,*,0,#) is nnot associated with any other numbers, as well you see the number 9 is associated with 4 alphabets
+   so if varun presses '45', then the letter combinations are, 'gj gk gl hj hk hl ij ik il'
+   so create a algorithm to help varun.
+   
+   Input description:
+   string containing digits from 2-9
+   
+   Output Description:
+   the letter combinations
+   
+   Sample input:
+   45
+   
+   Sample output:
+   gj gk gl hj hk hl ij ik il
+   
+   Sample input:
+   453
+   
+   Sample Output:
+   gjd gje gjf gkd gke gkf gld gle glf hjd hje hjf hkd hke hkf hld hle hlf ijd ije ijf ikd ike ikf ild ile ilf
